@@ -1,0 +1,13 @@
+@import 'normalize.css';
+@import 'blocks/feature.css';
+@import 'blocks/feature-list.css';
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}

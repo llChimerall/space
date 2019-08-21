@@ -1,0 +1,51 @@
+.feature {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 3%;
+    box-shadow: 0 0 50px 10px rgba(0,0,0,0.1);
+}
+
+.feature__heading {
+    background-position: top center;
+    padding-top: 175px;
+    background-repeat: no-repeat;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-left: 80px;
+    padding-right: 80px;
+    line-height: 1.5em;
+}
+
+.feature__heading_bg_astronaut {
+    background-image: url(../pics/astronaut.png);
+}
+
+.feature__heading_bg_mars {
+    background-image: url(../pics/mars.png);
+}
+
+.feature__heading_bg_rocket {
+    background-image: url(../pics/rocket.png);
+}
+
+.feature__text {
+    line-height: 1.5em;
+}
+
+.feature__link {
+    font-size: 0.8em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.feature__link::after {
+    content: '';
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background-image: url(../pics/arrow.svg);
+    background-size: cover;
+    vertical-align: middle;
+}
