@@ -1,6 +1,8 @@
 @import 'normalize.css';
+@import 'blocks/header.css';
 @import 'blocks/feature.css';
 @import 'blocks/feature-list.css';
+@import 'blocks/nav.css';
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 
 body {

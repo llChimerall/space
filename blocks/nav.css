@@ -1,0 +1,51 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+.nav__menu, .nav__item {
+    display: inline-block;
+}
+
+.nav__logo {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.nav__logo:hover {
+    text-shadow: 0 0 10px #000;
+}
+
+.nav__content {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 40px;
+}
+
+a.nav__content:hover {
+    font-weight: bold;
+    text-shadow: 0 0 10px #000;
+}
+
+.nav__contact:hover {
+    box-shadow: 0 0 10px #fff;
+}
+
+.nav__content_text {
+    font-weight: bold;
+}
+
+.nav__contact {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 15px 40px;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgb(120, 206, 161, 0.5);
+    letter-spacing: 1px;
+}

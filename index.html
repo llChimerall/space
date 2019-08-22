@@ -6,21 +6,29 @@
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
-        <nav>
-            <a href="#">Scistar</a>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Service</li>
-                <li>Explore</li>
-            </ul>
-            <button>
-                Contact Us
-            </button>
-        </nav>
-        <h1>A Space Exploration Startup</h1>
-        <a href="#">Register Now</a>
-        <a href="#">Explore Now</a>
+        <header class="header">
+            <div class="header__container">
+                <div class="header__nav">
+                    <nav class="nav">
+                        <a class="nav__logo" href="#">Scistar</a>
+                        <div class="nav__allmenu">
+                            <ul class="nav__menu">
+                                <li class="nav__item"><span class="nav__content nav__content_text">Home</span></li>
+                                <li class="nav__item"><a class="nav__content" href="#">About</a></li>
+                                <li class="nav__item"><a class="nav__content" href="#">Service</a></li>
+                                <li class="nav__item"><a class="nav__content" href="#">Explore</a></li>
+                            </ul>
+                            <button class="nav__contact">
+                                Contact Us
+                            </button>
+                        </div>
+                    </nav>
+                </div>
+                <h1 class="header__heading">A Space<br> Exploration Startup</h1>
+                <a class="header__button header__button_white" href="#">Register Now</a>
+                <a class="header__button header__button_nocolor" href="#">Explore Now</a>
+            </div>
+        </header>
         <div class="container">
             <ul class="feature-list">
                 <li class="feature-list__item">
