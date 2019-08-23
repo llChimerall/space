@@ -49,3 +49,44 @@ a.nav__content:hover {
     background-color: rgb(120, 206, 161, 0.5);
     letter-spacing: 1px;
 }
+
+@media (max-width: 350px) {
+    .nav {
+        position: absolute;
+        right: 0;
+        background: #78cea1;
+        display: inline;
+        text-align: right;
+        padding: 15px;
+    }
+
+    .nav__logo {
+        font-size: 1.4em;
+        padding: 10px;
+    }
+
+    .nav__allmenu {
+        padding-top: 15px;
+    }
+
+    .nav__menu, .nav__item {
+        display: block;
+        list-style: none;
+        margin: 0;
+    }
+
+    .nav__item {
+        padding: 15px;
+    }
+
+    .nav__content {
+        padding: 15px;
+    }
+
+    .nav__contact {
+        padding: 10px 20px;
+        margin-top: 10px;
+        font-size: 0.7em;
+    }
+    
+ }

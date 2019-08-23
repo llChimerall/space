@@ -49,3 +49,28 @@
     background-size: cover;
     vertical-align: middle;
 }
+
+@media (max-width: 350px) {
+    .feature {
+        padding: 5px;
+        text-align: right;
+        box-shadow: 0 0 15px 1px rgba(0,0,0,0.1);
+    }
+
+    .feature__heading {
+        text-align: left;
+        background-position: left;
+        background-size: contain;
+        height: 30px;
+        padding-top: 10px;
+        margin: 0;
+        font-size: 1em;
+        padding-left: 50px;
+    }
+
+    .feature__text {
+        text-align: left;
+        font-size: 0.8em;
+        margin: 7px;
+    }
+ }

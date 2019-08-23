@@ -55,3 +55,27 @@
     background-color: #fff;
     color: #234630;
 }
+
+@media (max-width: 350px) {
+    .header {
+        position: relative;
+    }
+
+    .header__heading {
+        font-size: 1.7em;
+        margin: 0;
+        padding: 15px 0;
+    }
+
+    .header::after {
+        height: 200px;
+        width: 250px;
+    }
+
+    .header__button {
+        padding: 10px 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 0.7em;
+    }
+ }
