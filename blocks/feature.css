@@ -61,16 +61,45 @@
         text-align: left;
         background-position: left;
         background-size: contain;
-        height: 30px;
         padding-top: 10px;
         margin: 0;
         font-size: 1em;
         padding-left: 50px;
+        position: relative;
     }
 
     .feature__text {
         text-align: left;
         font-size: 0.8em;
         margin: 7px;
+    }
+
+    .feature__heading_bg_astronaut,
+    .feature__heading_bg_mars,
+    .feature__heading_bg_rocket {
+        background-image: none;
+    }
+
+    .feature__heading::before {
+        content: '';
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        background-size: cover;
+        top: 50%;
+        left: 0;
+        transform: translate(0, -40%);
+    }
+
+    .feature__heading_bg_astronaut::before {
+        background-image: url(../pics/astronaut.png);
+    }
+    
+    .feature__heading_bg_mars::before {
+        background-image: url(../pics/mars.png);
+    }
+    
+    .feature__heading_bg_rocket::before {
+        background-image: url(../pics/rocket.png);
     }
  }
